@@ -1,0 +1,89 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.pinimg.com/736x/76/3e/39/763e39cee481af3780f57a09fba7a319.jpg");
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+#about{
+    h2{
+        background-color: #ccc;
+    }
+    p{
+        background-color: #DA70D6;
+        border-radius: 40px;
+    }
+}
+#projects{
+    background-color: #ccc;
+}
+main {
+  padding: 2rem;
+}
+main > p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.5rem;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+  border: #DA70D6;
+ 
+}
+
+/* Projects section */
+.project {
+  background-color: hsl(318, 53%, 72%);
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact section */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+#contact p:first-of-type {
+    color:#ccc;
+}
+footer {
+
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
